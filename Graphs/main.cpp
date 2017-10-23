@@ -102,16 +102,15 @@ int main(){
 	}
 	}
 	//	while (choice!=0);	 		
-// References: GeekforGeeks. Like to detect a cycle, I have used Union method;
-// And in class we have not read about it at all.			
-/* // ........Display the vector.......
+
+ // ........Display the vector.......
 	vector<tempEdge>::iterator itS=vecE.begin(), itE=vecE.end();
 
 	while (itS!=itE){
 		cout<< itS->source <<" "<< itS->dest << endl;
 		itS++;
 	}
-*/
+
 }//main..
 
 	void menuWall(){
