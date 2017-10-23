@@ -67,7 +67,7 @@ void insertAfter(string toInsert, string afterWhat)
 
 }
 //<------------------------------------------>
-/*
+
 void recheck(){
     ListItem<string> *iter = dict.getHead();
 	string temp;
@@ -111,7 +111,7 @@ void recheck(){
    		iter = iter->next;
     	}//iter while.
 }//void
-*/     
+
 //<------------------------------------------->
 List<string> Dictionary()
 {			
