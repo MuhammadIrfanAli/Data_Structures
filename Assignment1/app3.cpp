@@ -38,7 +38,7 @@ Queue<string> FindWords(string sub_str)
 
 
 }//function.
-/*
+
 int main(){
 	string inputStr;
 	cout<<"Enter the sub_string to find the string/strings"<<endl;
@@ -46,5 +46,4 @@ int main(){
 	FindWords(inputStr);
 
 }//main.
-*/
 #endif
