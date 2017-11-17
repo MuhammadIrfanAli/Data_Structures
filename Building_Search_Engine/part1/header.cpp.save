@@ -1,0 +1,128 @@
+#ifndef __LIST_CPP
+#define __LIST_CPP
+#include <cstdlib>
+#include "header.h"
+#include <iostream>
+using namespace std;
+
+template <class T>
+tree<T>::tree() // Constructor Initialization.
+{
+    root=NULL;
+}
+
+template <class T> // Destructor.
+tree<T>::~tree()
+{
+
+}
+
+template <class T>
+int tree<T>::insert(T toInsert, T after)
+{
+
+	treeNode<T> *rootPtr = root;
+	if (rootPtr==NULL){
+		treeNode<T> *insertPtr = new treeNode<T>(after);
+		root = insertPtr;
+		cout<<"insertPtr->dir: "<< insertPtr->dir<<endl;
+		root->sibling=NULL;
+		return 0;
+	}
+	else if(rootPtr!=NULL){
+		treeNode<T> *insertPtr = new treeNode<T>(toInsert);
+		// search the node after what you have to insert.
+		treeNode<T> *retPtr =  search(after, root);
+		cout<< "retPtr->dir: "<< retPtr->dir <<endl;
+		// get children.	
+		treeNode<T> *t = retPtr->children.getRoot();
+		// if no children present. 
+		if (t==NULL){ 
+			cout<<"insertPtr: "<< insertPtr->dir<< " with no children"<<endl;
+			t = insertPtr;
+			insertPtr->sibling=NULL;
+			return 1;
+			
+		}//if.
+		// children are already present.
+		else if(t!=NULL){
+			cout<<"insertPtr: "<< insertPtr->dir<< "with children"<<endl;
+			treeNode<T> *trav = t;
+			while (trav->sibling!=NULL)
+				trav = trav->sibling;
+			trav->sibling = insertPtr;
+			insertPtr->sibling =NULL;
+			return 1;
+		}//else if.
+	}//if.
+/*
+	else{
+		if (root->sibling==NULL){
+			root->sibling = insertPtr;
+			insertPtr->sibling=NULL;
+		}
+		else{
+			while (root->sibling!=NULL)
+				root = root->sibling;
+			root->sibling = insertPtr;
+			insertPtr->sibling=NULL; 
+		}//else.	
+	}
+*/
+}// insert.
+//<----------------------------------------------------------------------------->
+template <class T>
+treeNode<T> *tree<T>::getRoot()
+{
+	return root;
+}
+
+template <class T>
+treeNode<T> *tree<T>::search(T item, treeNode<T>* trav)
+{
+//	treeNode<T>* trav = findPtr;
+	cout<< item <<" with item: "<< trav->dir <<endl; 
+
+	if (trav->dir==item){
+		cout<<"item Found: "<<item<<endl;
+		return trav; 
+	}//if....
+	else{
+		cout<<"check be"<<endl;
+		treeNode<T> *firstChild = trav->children.getRoot();
+		cout<<"check2"<<endl; 
+		if(firstChild!=NULL){
+			cout<<"check3"<<endl;
+			search(item, firstChild);
+		}//if...
+		if(trav->sibling!=NULL){
+			cout<<"check4"<<endl;
+			search(item, trav->sibling);
+		}	
+	}//else.....
+	//return NULL;
+
+}// search....
+
+template <class T>
+void tree<T>::display( treeNode<T>* ptr){
+/*
+        treeNode<T>* trav = ptr;
+        cout<< trav->dir<<endl;
+        treeNode<T> *firstChild = trav->children.getRoot();
+        if(firstChild!=NULL){
+          cout<< firstChild->dir <<endl;
+          display(firstChild);
+        }
+        if(trav->sibling!=NULL){
+           treeNode<T> *secChild = firstChild->sibling;
+           cout<< secChild->dir <<endl;
+           display(secChild);
+        }
+*/
+}
+
+#endif
+
+
+

@@ -1,0 +1,29 @@
+C:\Users\Irfan Ali\Desktop\Adobe Photoshop CS5.1.lnk
+C:\Users\Irfan Ali\Desktop\C++ Coding
+C:\Users\Irfan Ali\Desktop\Code HArd.txt
+C:\Users\Irfan Ali\Desktop\CodeBlocks.lnk
+C:\Users\Irfan Ali\Desktop\engineer.jpg
+C:\Users\Irfan Ali\Desktop\input.txt
+C:\Users\Irfan Ali\Desktop\ISIS - Shortcut.lnk
+C:\Users\Irfan Ali\Desktop\Scheduel
+C:\Users\Irfan Ali\Desktop\uTorrent.exe
+C:\Users\Irfan Ali\Desktop\vlc-1.1.11-win32.exe
+C:\Users\Irfan Ali\Desktop\xampp-win32-1.7.4-VC6-installer.exe
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\bin
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\main.cpp
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\mass.cbp
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\mass.cpp
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\mass.depend
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\mass.layout
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\obj
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\bin\Debug
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\bin\Debug\mass.exe
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\obj\Debug
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\obj\Debug\main.o
+C:\Users\Irfan Ali\Desktop\C++ Coding\Forensics\mass\obj\Debug\mass.o
+C:\Users\Irfan Ali\Desktop\Scheduel\CourseMemo-Spring2013-v1.2.xlsx
+C:\Users\Irfan Ali\Desktop\Scheduel\Courses for SSE Elective requirement.xlsx
+C:\Users\Irfan Ali\Desktop\Scheduel\CourseSchedule-Spring2013-v1.2.pdf
+C:\Users\Irfan Ali\Desktop\Scheduel\FinalExamMatrix-Spring2013-vRC.pdf
